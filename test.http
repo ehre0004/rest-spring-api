@@ -7,7 +7,7 @@
 #GET http://localhost:8888/students/1
 
 ## test 3
-POST http://localhost:8888/students
+#POST http://localhost:8888/students
 Content-Type: application/json
 
 {
@@ -16,3 +16,16 @@ Content-Type: application/json
   "grade": "D-",
   "email": "someone@collegelive.com"
 }
+
+## test 4
+PUT http://localhost:8888/students
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Cali Dia",
+  "grade": "D+",
+  "email": "someoneelse@collegelive.com"
+}
+
+DELETE http://localhost:8888/students/1
