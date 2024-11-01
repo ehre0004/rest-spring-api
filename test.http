@@ -1,0 +1,18 @@
+# testing
+
+## test 1
+#GET http://localhost:8888/students
+
+## test 2
+#GET http://localhost:8888/students/1
+
+## test 3
+POST http://localhost:8888/students
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Cal Dio",
+  "grade": "D-",
+  "email": "someone@collegelive.com"
+}
